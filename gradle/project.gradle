@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.bmuschko:gradle-tomcat-plugin:2.4.+"
+    }
+}
+
+apply plugin: "com.bmuschko.tomcat"
+
+apply plugin: "idea"
+apply plugin: "project-report"
+apply plugin: "war"
